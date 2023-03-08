@@ -146,7 +146,7 @@ export default function Home() {
       </Head>
       <Container
         display={"flex"}
-        p={"8%"}
+        py={"8%"}
         flexDirection={"column"}
         alignItems={"center"}
         maxWidth={"6xl"}
@@ -379,7 +379,7 @@ export default function Home() {
             </Heading>
           )}
         </Container>
-        {miet && (
+        {/* {miet && (
           <Box
             position={"absolute"}
             right={0}
@@ -389,7 +389,7 @@ export default function Home() {
           >
             {JSON.stringify(miet)}
           </Box>
-        )}
+        )} */}
         <Modal isOpen={isOpen} onClose={onClose} size={"6xl"}>
           <ModalOverlay />
           <ModalContent>
