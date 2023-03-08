@@ -1,0 +1,216 @@
+{
+  "mindernd": [
+    {
+      "merkmal": "Dielenfußboden",
+      "value": "dielenboden",
+      "punkte": -10
+    },
+    {
+      "merkmal": "Bad nicht gefliest",
+      "value": "bad_nicht_gefliest",
+      "punkte": -10
+    },
+    {
+      "merkmal": "Bad ohne Zentralheizkörper oder Fußbodenheizung",
+      "value": "bad_ohne_zentralheizung",
+      "punkte": -10
+    },
+    {
+      "merkmal": "Bad ohne Fenster",
+      "value": "bad_ohne_fenster",
+      "punkte": -10
+    },
+    {
+      "merkmal": "Küche nicht beheizbar",
+      "value": "kueche_keine_heizung",
+      "punkte": -10
+    },
+    {
+      "merkmal": "Küche kleiner als 5 m²",
+      "value": "kueche_klein",
+      "punkte": -10
+    },
+    {
+      "merkmal": "Mehr als ein gefangenes Zimmer",
+      "value": "gefangenes_zimmmer",
+      "punkte": -10
+    },
+    {
+      "merkmal": "Kein Balkon oder Loggia oder Terrasse",
+      "value": "kein_balkon",
+      "punkte": -20
+    },
+    {
+      "merkmal": "Souterrainwohnung",
+      "value": "souterrainwohnung",
+      "punkte": -20
+    },
+    {
+      "merkmal": "Elektro- und/oder Wasser-/Abwasserleitungen nicht unter Putz",
+      "value": "nicht_unter_putz",
+      "punkte": -10
+    },
+    {
+      "merkmal": "Keine Gegensprechanlage mit elektrischem Türöffner",
+      "value": "keine_sprechanlage",
+      "punkte": -20
+    },
+    {
+      "merkmal": "Kein Keller oder Abstellraum",
+      "value": "kein_keller",
+      "punkte": -20
+    },
+    {
+      "merkmal": "Wohnungswasserzähler fehlt (kalt und/oder warm)",
+      "value": "kein_wasserzaehler",
+      "punkte": -10
+    },
+    {
+      "merkmal": "Keine gesonderte Erfassung des Allgemeinstroms",
+      "value": "kein_allgemeinstrom",
+      "punkte": -10
+    },
+    {
+      "merkmal": "Nachtspeicheröfen, Gaseinzelöfen, Kohleöfen, Ölöfen oder zusätzliche Thermen",
+      "value": "nachtspeicheroefen",
+      "punkte": -10
+    },
+    {
+      "merkmal": "Fehlender Internetanschluss (Telefonanschluss)",
+      "value": "kein_internet",
+      "punkte": -10
+    },
+    {
+      "merkmal": "Sammelbriefkasten",
+      "value": "sammelbriefkasten",
+      "punkte": -10
+    },
+    {
+      "merkmal": "Etagentoiletten",
+      "value": "etagentoilette",
+      "punkte": -30
+    },
+    {
+      "merkmal": "Einfach verglaste Fenster (gilt nicht für Doppelkastenfenster)",
+      "value": "einfach_fenster",
+      "punkte": -10
+    },
+    {
+      "merkmal": "Dachgeschosswohnung mit mangelhaftem Wärmeschutz im Sommer",
+      "value": "dachgeschoss",
+      "punkte": -10
+    },
+    {
+      "merkmal": "stark sanierungsbedürftige Fassade, Eingangsbereich oder Hausflur",
+      "value": "sanierungbeduerftig",
+      "punkte": -10
+    }
+  ],
+  "erhoehend": [
+    {
+      "merkmal": "Fußbodenheizung im Bad (bis 1999)",
+      "value": "fussbodenheizung",
+      "punkte": 10
+    },
+    {
+      "merkmal": "Badewanne und zusätzliche Duschtasse",
+      "value": "badewanne",
+      "punkte": 10
+    },
+    {
+      "merkmal": "Bad überwiegend gefliest (mindestens 55 % der Wandflächen oder Wände mit gleichwertigen Materialien versehen)",
+      "value": "bad_geliest",
+      "punkte": 10
+    },
+    {
+      "merkmal": "Gefliester Fußboden oder gleichwertigeMaterialien",
+      "value": "geliester_fussboden",
+      "punkte": 10
+    },
+    {
+      "merkmal": "Zweites WC innerhalb der Wohnung",
+      "value": "zweites_wc",
+      "punkte": 10
+    },
+    {
+      "merkmal": "Küche größer als 10 m² und alle Wände, mindestens 3 m lang",
+      "value": "grosse_kueche",
+      "punkte": 10
+    },
+    {
+      "merkmal": "Moderne Einbauküche mit mindesten zwei Großgeräten",
+      "value": "moderne_kueche",
+      "punkte": 10
+    },
+    {
+      "merkmal": "Balkon/Loggia/Terrasse oder Wintergarten > 6 m² und mindestens 1,5 m tief",
+      "value": "balkon",
+      "punkte": 10
+    },
+    {
+      "merkmal": "Einbruchshemmende Wohneingangstür (mindestens Mehrfachverriegelung)",
+      "value": "sichere_tuer",
+      "punkte": 10
+    },
+    {
+      "merkmal": "Abstellraum in der Wohnung",
+      "value": "abstellraum",
+      "punkte": 10
+    },
+    {
+      "merkmal": "Parkett oder preislich gleichwertige",
+      "value": "parkett",
+      "punkte": 10
+    },
+    {
+      "merkmal": "Personenaufzug bei weniger als 5 Etagen",
+      "value": "aufzug",
+      "punkte": 10
+    },
+    {
+      "merkmal": "Rollläden vor der Mehrzahl der Fenster ",
+      "value": "rollaeden",
+      "punkte": 10
+    },
+    {
+      "merkmal": "Zur Wohnung gehörende/r Garage oder Stellplatz ohne Extramiete",
+      "value": "garage",
+      "punkte": 10
+    },
+    {
+      "merkmal": "Trockenraum vorhanden",
+      "value": "trockenraum",
+      "punkte": 10
+    },
+    {
+      "merkmal": "Schallschutzfenster an lärmbelasteten Gebäudeseiten",
+      "value": "schallschutzfenster",
+      "punkte": 10
+    },
+    {
+      "merkmal": "Begrünter Innenhof",
+      "value": "innenhof",
+      "punkte": 10
+    },
+    {
+      "merkmal": "Trittschalldämmung entsprechend, DIN 4109",
+      "value": "trittschalldaemmung",
+      "punkte": 10
+    },
+    {
+      "merkmal": "Zur Wohnung gehörender Garten ohneExtramiete",
+      "value": "garten",
+      "punkte": 10
+    },
+    {
+      "merkmal": "Zentrale Schließanlage (nur ein Schlüssel für Haus-, Wohnungs- und Kellertür)",
+      "value": "schliessanlage",
+      "punkte": 10
+    },
+    {
+      "merkmal": "Energiekennwert < 94,01 kWh/(m²a) \n(Bedarfsorientierter Energieausweis)\nOder\nEnergiekennwert < 76,51 kWh/(m²a) \n(Verbrauchsorientierter Energieausweis)",
+      "value": "energiekennwert",
+      "punkte": 60
+    }
+  ]
+}
